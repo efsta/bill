@@ -140,8 +140,8 @@ wird unter dieser zusätzlich in der Tabelle EXT ein Transaktions-Pointer abgele
 
 In Schritten (Zugriff auf EXT, Decrypt, Zugriff auf Transaktionstabelle DAT) kann
 die Original-Transaktion geholt und entschlüsselt werden.
-Der Datenschutz entspricht dem Prinzip "wer Secret kennt, hat den physischen Beleg".
+Der Datenschutz entspricht dem Prinzip "wer Secret kennt, besitzt den Beleg".
 
-Mit dieser Methode können direkt die Transaktionsdaten eines Beleges, den man in
-Händen hält (und der in der Cloud gespeichert ist), ausgelesen werden. Besonders
-einfach ist das bei maschinenlesbarer Darstellung (QR) des Secret.
+Mit dieser Methode können direkt die Transaktionsdaten eines Beleges, der in der Cloud
+gespeichert ist, ausgelesen werden. Besonders einfach ist das bei maschinenlesbarer
+Darstellung (QR) des Secret.
